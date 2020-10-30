@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Frijole&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>My Blog</title>
+</head>
+<body>
+    <!-- Header Section Starts -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-inner navbar-dark fixed-top" id="navbarscroll">
+            <div class="container text-uppercase p-2">
+              <a class="navbar-brand font-weight-bold text-white" href="#">Travel Blog</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto text-uppercase">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">AboutMe</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#destination">Destination</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/img1.jpg" alt="Demo image 1" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h3>The jungle</h3>
+                    <p>We had such a great time in Almora jungle!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/img2.jpg" alt="Demo image 2" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h3>Binsar</h3>
+                    <p>The beauty that can take your breath away!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/img3.jpg" alt="Demo image 3" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h3>Himalaya</h3>
+                    <p>Adobe on the Earth!</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+    </header>
+    <!-- Header Sections ends -->
+    <!-- about us -->
+	<section class="about-sec" id="about">
+		<div class="container-fluid" id="aboutus">
+			<h1 class="text-center text-capitalize pt-5"><strong> About Me!</strong></h1>
+			<hr class="w-25 mx-auto">
+			<div class="row mb-5">
+				<div class="col-lg-6 col-md-6 col-12">
+					<img id="thumbnail" src="images/img5.jpg" class="img-fluid">
+				</div>
+				<div class="col-lg-6 col-md-6 col-12">
+					<h1 class="text-center ">Who am I?</h1>
+					<hr>
+					<p>
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <button class="btn btn-dark bg-dark ">Click Me For More!</button>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- about us end -->
+<!-- Destination part start -->
+<section id="destination">
+  <div class="container">
+      <h1 class="text-center text-capitalize pt-5"><strong> Destination</strong></h1>
+      <hr class="w-25 mx-auto">
+      <h2 class="text-center mb-4">You can be part of our exciting journey by suggesting a place that you want us to visit. </h2>
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2 col-12">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control news-input" placeholder="Enter the Destination">
+            <div class="input-group-append">
+              <span class="input-group-text">Submit</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+<!-- Destination part ends -->
+<!-- Gallery Part Starts -->
+    <section id="gallery">
+         <div class="container">
+             <h1 class="text-center text-capitalize pt-5"> <strong> Gallery</strong></h1>
+             <hr class="w-25 mx-auto">
+             <div class="row">
+                <div class="col-lg-4 col-md-2 col-12 mb-4">
+                    <img id="image" src="images/img6.jpg" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-2 col-12 mb-4">
+                    <img  id="image" src="images/img2.jpg" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-2 col-12 mb-4">
+                    <img id="image" src="images/img3.jpg" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-2 col-12 mb-4">
+                    <img id="image" src="images/img1.jpg" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-2 col-12 mb-4">
+                    <img  id="image" src="images/img11.jpg" class="img-fluid">
+                </div>
+                <div class="col-lg-4 col-md-2 col-12 mb-4">
+                    <img id="image" src="images/img8.jpg" class="img-fluid">
+                </div>
+                
+            </div>
+         </div>
+    </section>
+<!-- Gallery Part Ends -->
+<!-- contact us starts -->
+<section id="contact">
+    <div class="container mb-5">
+        <h1 class="text-center text-capitalize pt-5"> <strong> Contact Me</strong></h1>
+        <hr class="w-25 mx-auto">
+        <div class="w-50 mx-auto">
+        <form action="/action_page.php">
+         <div class="form-group">
+          <label for="email">Your Name:</label>
+           <input type="text" class="form-control" placeholder="Enter your name" id="email" autocomplete="off">
+         </div>
+         <div class="form-group">
+                      <label for="pwd">Email:</label>
+          <input type="email" class="form-control" placeholder="Enter email" id="pwd" autocomplete="off">
+       </div>
+        <div class="form-group">
+                      <label for="pwd">Mobile No:</label>
+          <input type="number" class="form-control" placeholder="Enter Mobile No" id="num" autocomplete="off">
+       </div>
+       <div class="form-group">
+           <label>Message:</label>
+           <textarea class="form-control" placeholder="Enter you message here!"></textarea>
+       </div>
+   <button type="submit" class="btn btn-dark bg-dark">Submit</button>
+        </form>
+     </div>
+    </div>
+</section>
+<!-- contact us ends -->
+<!-- footer-->
+<footer>
+    <p class="text-center bg-dark text-white">@copyright manojnayal.com 2020</p>
+</footer>
+  <!-- footer ends -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbarscroll").style.top = "0";
+      } else {
+        document.getElementById("navbarscroll").style.top = "-150px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+    </script>
+    
+    
+</body>
+</html>
